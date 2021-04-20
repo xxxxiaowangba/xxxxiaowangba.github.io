@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxxxiaowangba.github.io</id>
     <title>Gridea</title>
-    <updated>2021-04-20T08:10:10.479Z</updated>
+    <updated>2021-04-20T12:26:24.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxxxiaowangba.github.io"/>
     <link rel="self" href="https://xxxxiaowangba.github.io/atom.xml"/>
@@ -10,6 +10,72 @@
     <logo>https://xxxxiaowangba.github.io/images/avatar.png</logo>
     <icon>https://xxxxiaowangba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[HTML 基础]]></title>
+        <id>https://xxxxiaowangba.github.io/post/html-jichu/</id>
+        <link href="https://xxxxiaowangba.github.io/post/html-jichu/">
+        </link>
+        <updated>2021-04-20T08:12:21.000Z</updated>
+        <content type="html"><![CDATA[<p>1.网页<br>
+构成网站的基本元素，称为HTML文件（由html语言创建）。<br>
+2.html<br>
+超文本标记语言（Hyper Text Markup Language）,是一种标记语言。<br>
+超文本：<br>
+1.除了文字还可以加入声音、图片、视频等内容<br>
+2.可以从一个文件跳到另一个文件（超级链接文本）</p>
+<p>3.常用浏览器<br>
+(1).火狐（Firefox）        Gecko<br>
+(2).谷歌（Chrome）      Blink<br>
+(3).Safari                        Webkit<br>
+(4).Opera                       Blink<br>
+(5).IE浏览器                    Trident<br>
+内核作用：读取网页内容，将网页显示出来</p>
+<p>4.web标准<br>
+为什么需要web标准？ 因为浏览器不同，它们显示的页面或者排版会有一些差异。<br>
+web标准构成：<br>
+1.结构      对网页元素进行整理和分类        html<br>
+2.表现      给网页元素进行设计                  css<br>
+3.行为      网页模型的定义和交互               javascript<br>
+web标准提出的最佳体验方案是结构、样式、行为相分离。</p>
+<p>5.标签<br>
+双标签<br>
+<h1>-<h6>   标题标签，重要性递减，独占一行<br>
+<p></p>段落标签，将文字分成不同段落<br>
+<strong></strong><b></b>加粗<br>
+<em></em><i></i>斜体<br>
+<del></del><s></s>删除线<br>
+<ins></ins><u></u>下划线<br>
+<div></div>盒子无语义<br>
+一行只有一个div，独占一行，块元素<br>
+<span></span><br>
+<a></a>超链接标签   a:anchor    href指定链接目标地址    target指定链接页面的打开方式（_self为默认值，_blank在新窗口打开）   锚点链接<a href="#xx"></a><p id="xx">可以快速跳到页面的某一位置<br>
+单标签<br>
+<br/>换行标签<br>
+<img>图像标签 src图片路径   art替换文本，图片显示不出来就会显示art内容  title鼠标放在图片上显示的提示文本   border给图片设置边框<br>
+标签关系：<br>
+包含关系：父子关系<br>
+并列关系：兄弟关系</p>
+<p>6.&lt;!DOCTYPE&gt;<br>
+文档类型声明，告诉浏览器使用哪种HTML版本显示页面。位置必须是整个html的开头。</p>
+<p>7.lang  定义语言<br>
+en英文<br>
+zh-CN中文</p>
+<p>8.<meta charset="UTF-8"><br>
+UTF-8万国码，charset声明编译字符。</p>
+<p>9.路径<br>
+(1)相对目录 以当前文件位置为参考<br>
+同级路径    xxx<br>
+下一级路径    文件夹/xxx<br>
+上一级路径    ../<br>
+(2)绝对目录<br>
+在电脑中的哪个位置      c:/xxx/xxx/xxx.xx</p>
+<p>10.特殊字符<br>
+空格     <br>
+小于    &lt;<br>
+大于    &gt;<br>
+&amp;       &amp;</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xxxxiaowangba.github.io/post/hello-gridea/</id>
